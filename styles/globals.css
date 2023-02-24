@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer {
+  .banner-bg {
+    background: linear-gradient(105.32deg, #d2e7ff -1.05%, #f2f8ff 78.81%);
+    backdrop-filter: blur(17.5px);
+  }
+  .banner-height {
+    height: calc(100vh - 66px);
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#tsparticles {
+  height: 100%;
+  width: 100%;
+}
